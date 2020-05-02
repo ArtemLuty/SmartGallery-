@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17ADC594C33AE3C07FC79CEE /* Pods_Smart_Gallery_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65A7BD01471BA6EA4F90221 /* Pods_Smart_Gallery_2.framework */; };
 		61341E4A242BE3FF00E5CB4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61341E49242BE3FF00E5CB4C /* AppDelegate.swift */; };
 		61341E4C242BE3FF00E5CB4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61341E4B242BE3FF00E5CB4C /* SceneDelegate.swift */; };
 		61341E4E242BE3FF00E5CB4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61341E4D242BE3FF00E5CB4C /* ViewController.swift */; };
 		61341E51242BE3FF00E5CB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61341E4F242BE3FF00E5CB4C /* Main.storyboard */; };
 		61341E53242BE40300E5CB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61341E52242BE40300E5CB4C /* Assets.xcassets */; };
 		61341E56242BE40300E5CB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61341E54242BE40300E5CB4C /* LaunchScreen.storyboard */; };
+		61385FAF243A2BF300F3D9B6 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61385FAE243A2BF300F3D9B6 /* MainTabBarController.swift */; };
+		61766BF82434D80A0011E468 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61766BF72434D80A0011E468 /* NetworkService.swift */; };
+		618C5C2C245DB2DD00117E9F /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618C5C2B245DB2DD00117E9F /* WaterfallLayout.swift */; };
+		6191F1C42437E0E900166BA6 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6191F1C32437E0E900166BA6 /* NetworkDataFetcher.swift */; };
+		6191F1C72437E24C00166BA6 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6191F1C62437E24C00166BA6 /* SearchResults.swift */; };
+		61D9AF41243A30B9006730B8 /* PhotosCollectionVievController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D9AF40243A30B8006730B8 /* PhotosCollectionVievController.swift */; };
+		61DFEE832445C31300A4C356 /* LikesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DFEE822445C31300A4C356 /* LikesCollectionViewCell.swift */; };
+		61DFEE852445C34600A4C356 /* LikesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DFEE842445C34600A4C356 /* LikesCollectionViewController.swift */; };
+		61DFEE872445D3F600A4C356 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DFEE862445D3F600A4C356 /* Extension.swift */; };
+		61EBACE0243935FC00CD505D /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EBACDF243935FC00CD505D /* PhotosCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53E932918C06B5BB6E9257B9 /* Pods-Smart Gallery 2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Gallery 2.release.xcconfig"; path = "Target Support Files/Pods-Smart Gallery 2/Pods-Smart Gallery 2.release.xcconfig"; sourceTree = "<group>"; };
 		61341E46242BE3FF00E5CB4C /* Smart Gallery 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Gallery 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61341E49242BE3FF00E5CB4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61341E4B242BE3FF00E5CB4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,18 @@
 		61341E52242BE40300E5CB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61341E55242BE40300E5CB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61341E57242BE40300E5CB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61385FAE243A2BF300F3D9B6 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		61766BF72434D80A0011E468 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		618C5C2B245DB2DD00117E9F /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		6191F1C32437E0E900166BA6 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		6191F1C62437E24C00166BA6 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		61D9AF40243A30B8006730B8 /* PhotosCollectionVievController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotosCollectionVievController.swift; path = "/Users/koristuvac/Desktop/Smart Gallery 2/Smart Gallery 2/PhotosCollectionVievController.swift"; sourceTree = "<absolute>"; };
+		61DFEE822445C31300A4C356 /* LikesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCollectionViewCell.swift; sourceTree = "<group>"; };
+		61DFEE842445C34600A4C356 /* LikesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCollectionViewController.swift; sourceTree = "<group>"; };
+		61DFEE862445D3F600A4C356 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		61EBACDF243935FC00CD505D /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
+		C65A7BD01471BA6EA4F90221 /* Pods_Smart_Gallery_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Gallery_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8A630CE06E4F43C446CC6DE /* Pods-Smart Gallery 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Gallery 2.debug.xcconfig"; path = "Target Support Files/Pods-Smart Gallery 2/Pods-Smart Gallery 2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17ADC594C33AE3C07FC79CEE /* Pods_Smart_Gallery_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CAA91EF0070684725266B70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C65A7BD01471BA6EA4F90221 /* Pods_Smart_Gallery_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		61341E3D242BE3FF00E5CB4C = {
 			isa = PBXGroup;
 			children = (
+				61DFEE812445C2BC00A4C356 /* Favorites */,
+				616F81F0244508DE00ACC2A0 /* Delegats */,
+				6191F1C52437E14000166BA6 /* Servise */,
 				61341E48242BE3FF00E5CB4C /* Smart Gallery 2 */,
 				61341E47242BE3FF00E5CB4C /* Products */,
+				A249F698FCD632FA28BC1D50 /* Pods */,
+				5CAA91EF0070684725266B70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,71 @@
 		61341E48242BE3FF00E5CB4C /* Smart Gallery 2 */ = {
 			isa = PBXGroup;
 			children = (
-				61341E49242BE3FF00E5CB4C /* AppDelegate.swift */,
-				61341E4B242BE3FF00E5CB4C /* SceneDelegate.swift */,
+				61DFEE88244666C300A4C356 /* Extension */,
+				61385FAE243A2BF300F3D9B6 /* MainTabBarController.swift */,
+				61D9AF40243A30B8006730B8 /* PhotosCollectionVievController.swift */,
 				61341E4D242BE3FF00E5CB4C /* ViewController.swift */,
+				61EBACDF243935FC00CD505D /* PhotosCell.swift */,
+				618C5C2B245DB2DD00117E9F /* WaterfallLayout.swift */,
 				61341E4F242BE3FF00E5CB4C /* Main.storyboard */,
 				61341E52242BE40300E5CB4C /* Assets.xcassets */,
 				61341E54242BE40300E5CB4C /* LaunchScreen.storyboard */,
 				61341E57242BE40300E5CB4C /* Info.plist */,
 			);
 			path = "Smart Gallery 2";
+			sourceTree = "<group>";
+		};
+		616F81F0244508DE00ACC2A0 /* Delegats */ = {
+			isa = PBXGroup;
+			children = (
+				61341E4B242BE3FF00E5CB4C /* SceneDelegate.swift */,
+				61341E49242BE3FF00E5CB4C /* AppDelegate.swift */,
+			);
+			path = Delegats;
+			sourceTree = "<group>";
+		};
+		6191F1C52437E14000166BA6 /* Servise */ = {
+			isa = PBXGroup;
+			children = (
+				6191F1C82437E26A00166BA6 /* Models */,
+				6191F1C32437E0E900166BA6 /* NetworkDataFetcher.swift */,
+				61766BF72434D80A0011E468 /* NetworkService.swift */,
+			);
+			path = Servise;
+			sourceTree = "<group>";
+		};
+		6191F1C82437E26A00166BA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6191F1C62437E24C00166BA6 /* SearchResults.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		61DFEE812445C2BC00A4C356 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				61DFEE822445C31300A4C356 /* LikesCollectionViewCell.swift */,
+				61DFEE842445C34600A4C356 /* LikesCollectionViewController.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		61DFEE88244666C300A4C356 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				61DFEE862445D3F600A4C356 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A249F698FCD632FA28BC1D50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8A630CE06E4F43C446CC6DE /* Pods-Smart Gallery 2.debug.xcconfig */,
+				53E932918C06B5BB6E9257B9 /* Pods-Smart Gallery 2.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61341E5A242BE40300E5CB4C /* Build configuration list for PBXNativeTarget "Smart Gallery 2" */;
 			buildPhases = (
+				CBC8DCBCFCB4697021DF8D96 /* [CP] Check Pods Manifest.lock */,
 				61341E42242BE3FF00E5CB4C /* Sources */,
 				61341E43242BE3FF00E5CB4C /* Frameworks */,
 				61341E44242BE3FF00E5CB4C /* Resources */,
+				5C3C77BCA4B1EE8BF60CD8AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +229,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C3C77BCA4B1EE8BF60CD8AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smart Gallery 2/Pods-Smart Gallery 2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smart Gallery 2/Pods-Smart Gallery 2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smart Gallery 2/Pods-Smart Gallery 2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC8DCBCFCB4697021DF8D96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smart Gallery 2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		61341E42242BE3FF00E5CB4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61DFEE852445C34600A4C356 /* LikesCollectionViewController.swift in Sources */,
+				61EBACE0243935FC00CD505D /* PhotosCell.swift in Sources */,
+				6191F1C42437E0E900166BA6 /* NetworkDataFetcher.swift in Sources */,
+				61DFEE872445D3F600A4C356 /* Extension.swift in Sources */,
+				61385FAF243A2BF300F3D9B6 /* MainTabBarController.swift in Sources */,
+				61DFEE832445C31300A4C356 /* LikesCollectionViewCell.swift in Sources */,
+				61766BF82434D80A0011E468 /* NetworkService.swift in Sources */,
+				618C5C2C245DB2DD00117E9F /* WaterfallLayout.swift in Sources */,
 				61341E4E242BE3FF00E5CB4C /* ViewController.swift in Sources */,
 				61341E4A242BE3FF00E5CB4C /* AppDelegate.swift in Sources */,
+				6191F1C72437E24C00166BA6 /* SearchResults.swift in Sources */,
+				61D9AF41243A30B9006730B8 /* PhotosCollectionVievController.swift in Sources */,
 				61341E4C242BE3FF00E5CB4C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +430,7 @@
 		};
 		61341E5B242BE40300E5CB4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A630CE06E4F43C446CC6DE /* Pods-Smart Gallery 2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +449,7 @@
 		};
 		61341E5C242BE40300E5CB4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E932918C06B5BB6E9257B9 /* Pods-Smart Gallery 2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
